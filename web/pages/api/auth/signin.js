@@ -27,7 +27,6 @@ export default λ(async (req, res) => {
   if (req.method !== 'POST') {
     throw createError('Not found', 404)
   }
-  ;``
 
   return signin(req, res)
 })
